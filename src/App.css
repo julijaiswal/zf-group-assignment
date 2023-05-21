@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  margin-top: 50px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +40,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+table,th,td{
+  border: 1px solid black;
+    border-collapse: collapse;
+    padding:10px
+}
+table{
+  width:90vw
+}
+.row{
+  flex-direction: row;
+  display: flex;
+  margin:10px;
+  width:90vw;
+  justify-content: space-between;
+}
+input{
+  padding:10px;
+  width:30vw;
+}
+select{
+  width: 10vw;
+    padding: 10px;
+}
+img{
+  width:12px;
+  height:12px
 }
